@@ -4,7 +4,7 @@
 #！登录后点击头像前往管理面板，更改参数设置中的站点信息为你的repl域名
 
 if [ ! -f "cloudreve" ];then
-  curl -L https://github.com/cloudreve/Cloudreve/releases/download/3.7.1/cloudreve_3.7.1_linux_amd64.tar.gz -o cloudreve.tar.gz
+  curl -L https://github.com/cloudreve/Cloudreve/releases/download/3.8.0-beta1/cloudreve_3.8.0-beta1_linux_amd64.tar.gz -o cloudreve.tar.gz
 tar -zxvf cloudreve.tar.gz
 rm -f cloudreve.tar.gz && rm -f LICENSE
 fi
